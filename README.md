@@ -13,7 +13,7 @@ An analysis of smart device fitness data to unlock new growth opportunities for 
 ## 📊 Key Insights & Dashboard
 [View the Interactive Tableau Dashboard Here](YOUR_TABLEAU_PUBLIC_LINK_HERE)
 
-Tableau Visualization<img width="2560" height="1600" alt="Dashboard 1" src="https://github.com/user-attachments/assets/2f71ac49-600f-410b-86e5-cf3f34afcb0e" />
+Tableau Visualization <img width="612" height="792" alt="Dashboard final 1" src="https://github.com/user-attachments/assets/db8b988a-80ce-4ed5-9fc2-63a47aa430c0" />
 
 
 * **Finding 1:** Users are most active between 5 PM and 7 PM.
