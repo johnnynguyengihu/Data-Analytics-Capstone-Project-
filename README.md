@@ -5,10 +5,10 @@
 An analysis of smart device fitness data to unlock new growth opportunities for Bellabeat, a high-tech manufacturer of health-focused products for women.
 
 ## 🛠️ The Process
-1. **Prepare:** used the FitBit Fitness Tracker Data (CC0 Public Domain).
-2. **Process:** used **SQL** to clean 30+ days of activity, sleep, and weight data, ensuring data integrity and consistent date formats.
-3. **Analyze:** Using SQL `AGGREGATE` functions and `JOINS`, I identified a strong correlation between sedentary time and poor sleep quality.
-4. **Share:** Created an interactive dashboard in **Tableau**.
+**Prepare:** used the FitBit Fitness Tracker Data (CC0 Public Domain).
+**Process:** used **SQL** to clean 30+ days of activity, sleep, and weight data, ensuring data integrity and consistent date formats.
+**Analyze:** Using SQL `AGGREGATE` functions and `JOINS`, I identified a strong correlation between sedentary time and poor sleep quality.
+**Share:** Created an interactive dashboard in **Tableau**.
 
 ## 📊 Key Insights & Dashboard
 [View the Interactive Tableau Dashboard Here](YOUR_TABLEAU_PUBLIC_LINK_HERE)
