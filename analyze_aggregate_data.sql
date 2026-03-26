@@ -1,4 +1,4 @@
-# Agreggate the final daily summary table
+-- Agreggate the final daily summary table
 CREATE OR REPLACE TABLE `bold-momentum-471601-r3.bellabeat_dataset.master_daily_summary` AS
 
 WITH 
