@@ -13,7 +13,7 @@ An analysis of smart device fitness data to unlock new growth opportunities for 
 ## 📊 Key Insights & Dashboard
 [View the Interactive Tableau Dashboard Here](YOUR_TABLEAU_PUBLIC_LINK_HERE)
 
-Tableau Visualization /
+Tableau Visualization 
 
 <img width="544" height="342" alt="Dashboard final 1" src="https://github.com/user-attachments/assets/88ea11bd-0d25-4e7b-8db6-612b6d92367a" />
 
