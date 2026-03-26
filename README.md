@@ -19,8 +19,9 @@ Tableau Visualization
 
 
 
-* **Finding 1:** Users are most active between 5 PM and 7 PM.
-* **Finding 2:** 80% of users spend more than 10 hours a day in a sedentary state.
+* **Key Findings**
+Users are most active between 5 PM and 7 PM.
+80% of users spend more than 10 hours a day in a sedentary state.
 
 ## 🚀 Recommendations
 * **Notification Strategy:** Launch "Evening Push" alerts at 4:30 PM to encourage users to hit their step goals before the day ends.
