@@ -1,4 +1,4 @@
-# CLEAN HEART RATE DATA
+-- CLEAN HEART RATE DATA
 
 CREATE OR REPLACE TABLE `bold-momentum-471601-r3.bellabeat_dataset.heartrate_cleaned` AS
 SELECT
@@ -10,7 +10,7 @@ WHERE Value IS NOT NULL
   AND Value > 0;
 
 
-# REMOVE DUPLICATES (HEART RATE)
+--- REMOVE DUPLICATES (HEART RATE)
 
 CREATE OR REPLACE TABLE `bold-momentum-471601-r3.bellabeat_dataset.heartrate_deduped` AS
 SELECT * EXCEPT(row_num)
@@ -25,7 +25,7 @@ FROM (
 WHERE row_num = 1;
 
 
-# AGGREGATE HEART RATE (DAILY)
+--- AGGREGATE HEART RATE (DAILY)
 
 CREATE OR REPLACE TABLE `bold-momentum-471601-r3.bellabeat_dataset.heartrate_daily` AS
 SELECT
@@ -36,7 +36,7 @@ FROM `bold-momentum-471601-r3.bellabeat_dataset.heartrate_deduped`
 GROUP BY user_id, activity_date;
 
 
-# CLEAN STEPS DATA
+-- CLEAN STEPS DATA
 
 CREATE OR REPLACE TABLE `bold-momentum-471601-r3.bellabeat_dataset.steps_cleaned` AS
 SELECT
@@ -48,7 +48,7 @@ WHERE StepTotal IS NOT NULL;
 
 
 
-# CLEAN SLEEP DATA
+-- CLEAN SLEEP DATA
 
 CREATE OR REPLACE TABLE `bold-momentum-471601-r3.bellabeat_dataset.sleep_cleaned` AS
 SELECT
@@ -61,7 +61,7 @@ WHERE TotalMinutesAsleep IS NOT NULL;
 
 
 
-# TRANSFORM STEPS
+-- TRANSFORM STEPS
 
 CREATE OR REPLACE TABLE `bold-momentum-471601-r3.bellabeat_dataset.steps_transformed` AS
 SELECT
@@ -75,7 +75,7 @@ FROM `bold-momentum-471601-r3.bellabeat_dataset.steps_cleaned`;
 
 
 
-# CREATE MASTER TABLE
+-- CREATE MASTER TABLE
 
 CREATE OR REPLACE TABLE `bold-momentum-471601-r3.bellabeat_dataset.master_data` AS
 SELECT
@@ -102,7 +102,7 @@ LEFT JOIN `bold-momentum-471601-r3.bellabeat_dataset.heartrate_daily` hr
 
 
 
-# VALIDATING DATA
+-- VALIDATING DATA
 
 
 -- Total rows
