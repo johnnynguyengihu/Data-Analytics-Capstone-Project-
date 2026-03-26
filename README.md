@@ -18,7 +18,7 @@ Tableau Visualization
 <img width="544" height="342" alt="Dashboard final 1" src="https://github.com/user-attachments/assets/88ea11bd-0d25-4e7b-8db6-612b6d92367a" />
 
 
-**Key Findings**
+**Key Findings:**
 * Users are most active between 5 PM and 7 PM.
 * 80% of users spend more than 10 hours a day in a sedentary state.
 
