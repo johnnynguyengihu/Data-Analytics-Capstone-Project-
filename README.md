@@ -6,8 +6,11 @@ An analysis of smart device fitness data to unlock new growth opportunities for 
 
 ## 🛠️ The Process
 **Prepare:** used the FitBit Fitness Tracker Data (CC0 Public Domain).
+
 **Process:** used **SQL** to clean 30+ days of activity, sleep, and weight data, ensuring data integrity and consistent date formats.
+
 **Analyze:** Using SQL `AGGREGATE` functions and `JOINS`, I identified a strong correlation between sedentary time and poor sleep quality.
+
 **Share:** Created an interactive dashboard in **Tableau**.
 
 ## 📊 Key Insights & Dashboard
